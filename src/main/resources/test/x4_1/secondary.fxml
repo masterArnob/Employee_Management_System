@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="555.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="test.x4_1.SecondaryController">
+   <children>
+      <Button fx:id="secondaryButton" layoutX="438.0" layoutY="465.0" mnemonicParsing="false" onAction="#switchToPrimary" text="Go to Entry" />
+      <Button fx:id="Search" layoutX="273.0" layoutY="195.0" mnemonicParsing="false" onAction="#doSearch" text="Search" />
+      <Label layoutX="178.0" layoutY="119.0" text="ID" />
+      <TextField fx:id="tID" layoutX="224.0" layoutY="115.0" promptText="Enter ID" />
+      <Label layoutX="27.0" layoutY="221.0" text="Infromation" />
+      <Label layoutX="135.0" layoutY="342.0" text="Phone :" />
+      <Label layoutX="135.0" layoutY="250.0" text="Name :" />
+      <Label layoutX="135.0" layoutY="293.0" text="Address :" />
+      <Label fx:id="Status" layoutX="27.0" layoutY="497.0" prefHeight="18.0" prefWidth="519.0" />
+      <Label layoutX="136.0" layoutY="392.0" text="Email :" />
+      <Label layoutX="135.0" layoutY="436.0" text=" Dept :" />
+      <Label layoutX="198.0" layoutY="17.0" prefHeight="50.0" prefWidth="240.0" text="Employee Data">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="resultName" layoutX="210.0" layoutY="250.0" />
+      <Label fx:id="resultAddress" layoutX="210.0" layoutY="293.0" />
+      <Label fx:id="resultPhone" layoutX="210.0" layoutY="342.0" />
+      <Label fx:id="resultDept" layoutX="210.0" layoutY="436.0" />
+      <Label fx:id="resultEmail" layoutX="210.0" layoutY="392.0" />
+   </children>
+</AnchorPane>
